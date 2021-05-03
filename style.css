@@ -1,0 +1,62 @@
+/*login form */
+
+*{
+  font-family: Berlin Sans FB;
+  box-sizing: border-box;
+}   
+
+body {
+  background-image: url("bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+form {
+  width: 650px;
+  border: 3px solid black;
+  padding: 30px;
+  background: transparent;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+  display: block;
+  border: 1px solid black;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+label {
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 10px;
+}
+
+button {
+  margin-left: 220px;
+  background: skyblue;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 5px ;
+  border: solid 2px black;
+  width: 140px;
+  font-size: 16px;
+}
+
+button:hover{
+  opacity: .7;
+}
+
